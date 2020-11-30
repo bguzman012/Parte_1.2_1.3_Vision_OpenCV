@@ -75,9 +75,9 @@ int main(int argc, char *argv[])
     porcentajeFeline = imagen.getPorcentajePrecision(listaPrecisionFeline);
     porcentajeMarine = imagen.getPorcentajePrecision(listaPrecisionMarine);
 
-    cout << "Porcentaje de la mona sensual: " << porcentajeMonkey << "%" << endl;
-    cout << "Porcentaje de la Katiuska: " << porcentajeFeline << "%" << endl;
-    cout << "Porcentaje del lobo estepario: " << porcentajeMarine << "%" << endl;
+    cout << "Porcentaje de etiqueta Monkey: " << porcentajeMonkey << "%" << endl;
+    cout << "Porcentaje de etiqueta Feline: " << porcentajeFeline << "%" << endl;
+    cout << "Porcentaje de etiqueta Marine_Animl: " << porcentajeMarine << "%" << endl;
 
     t1 = clock();
 
@@ -133,9 +133,9 @@ int main(int argc, char *argv[])
     porcentajeGrisFeline = imagen.getPorcentajePrecision(listaPrecisionGrisFeline);
     porcentajeGrisMarine = imagen.getPorcentajePrecision(listaPrecisionGrisMarine);
 
-    cout << "Porcentaje de la mona sensual(Gris): " << porcentajeGrisMonkey << "%" << endl;
-    cout << "Porcentaje de la Katiuska(Gris): " << porcentajeGrisFeline << "%" << endl;
-    cout << "Porcentaje del lobo estepario(Gris): " << porcentajeGrisMarine << "%" << endl;
+    cout << "Porcentaje de etiqueta Monkey(Gris): " << porcentajeGrisMonkey << "%" << endl;
+    cout << "Porcentaje de etiqueta Feline(Gris): " << porcentajeGrisFeline << "%" << endl;
+    cout << "Porcentaje de etiqueta Marine_Animals(Gris): " << porcentajeGrisMarine << "%" << endl;
 
     t3 = clock();
 
@@ -193,9 +193,9 @@ int main(int argc, char *argv[])
     porcentajeHSVFeline = imagen.getPorcentajePrecision(listaPrecisionHSVFeline);
     porcentajeHSVMarine = imagen.getPorcentajePrecision(listaPrecisionHSVMarine);
 
-    cout << "Porcentaje de la mona sensual: " << porcentajeHSVMonkey << "%" << endl;
-    cout << "Porcentaje de la Katiuska: " << porcentajeHSVFeline << "%" << endl;
-    cout << "Porcentaje del lobo estepario: " << porcentajeHSVMarine << "%" << endl;
+    cout << "Porcentaje de etiqueta Monkey(HSV): " << porcentajeHSVMonkey << "%" << endl;
+    cout << "Porcentaje de etiqueta Feline(HSV): " << porcentajeHSVFeline << "%" << endl;
+    cout << "Porcentaje de etiqueta Marine_Animals(HSV): " << porcentajeHSVMarine << "%" << endl;
 
     t5 = clock();
 
